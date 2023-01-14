@@ -18,4 +18,7 @@ public class Tome
      
     [Required]
     public int numtome { get; set; }
+
+    [Required]
+    public string image {get; set;} =string.Empty;
 }
